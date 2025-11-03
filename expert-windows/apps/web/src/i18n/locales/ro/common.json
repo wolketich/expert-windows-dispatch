@@ -1,0 +1,15 @@
+{
+  "welcome": "Bun venit",
+  "loading": "Se încarcă...",
+  "error": "Eroare",
+  "success": "Succes",
+  "cancel": "Anulează",
+  "save": "Salvează",
+  "delete": "Șterge",
+  "edit": "Editează",
+  "close": "Închide",
+  "submit": "Trimite",
+  "search": "Caută",
+  "filter": "Filtrează",
+  "sort": "Sortează"
+}
