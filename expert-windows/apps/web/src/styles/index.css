@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #00606B;
+  --color-secondary: #243E4D;
+  --color-accent: #0170b9;
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+    }
+  }
+
+  @media (prefers-contrast: high) {
+    :root {
+      color-scheme: light dark;
+    }
+  }
+}
